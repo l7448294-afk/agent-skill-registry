@@ -1,4 +1,27 @@
 {
-  "version": 1,
-  "skills": []
+  "version": 1.0,
+  "skills": [
+    {
+      "name": "pdf",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "format": "directory",
+      "downloadUrl": "https://raw.githubusercontent.com/l7448294-afk/agent-skill-registry/main/skills/pdf/",
+      "files": [
+        "reference.md",
+        "forms.md",
+        "scripts/fill_fillable_fields.py",
+        "scripts/convert_pdf_to_images.py",
+        "scripts/extract_form_field_info.py",
+        "scripts/extract_form_structure.py",
+        "scripts/check_bounding_boxes.py",
+        "scripts/create_validation_image.py",
+        "scripts/fill_pdf_form_with_annotations.py",
+        "scripts/check_fillable_fields.py",
+        "SKILL.md",
+        "LICENSE.txt"
+      ],
+      "updatedAt": "2026-03-07"
+    }
+  ],
+  "updatedAt": "2026-03-07"
 }
