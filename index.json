@@ -89,6 +89,16 @@
         "LICENSE.txt"
       ],
       "updatedAt": "2026-03-07"
+    },
+    {
+      "name": "fal-image-edit",
+      "description": "AI-powered image editing with style transfer and object removal",
+      "format": "directory",
+      "downloadUrl": "https://raw.githubusercontent.com/l7448294-afk/agent-skill-registry/main/skills/fal-image-edit/",
+      "files": [
+        "SKILL.md"
+      ],
+      "updatedAt": "2026-03-07"
     }
   ],
   "updatedAt": "2026-03-07"
